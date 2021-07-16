@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(to right, skyblue, lightseagreen, #209A9E);
+}
+
+#title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Calibri, cursive;
+    color: yellow;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 5px;
+    width: 100%;
+    padding-top: 30px;
+    color: cornsilk;
+}
+
+.window1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.feet, .inches, .centi {
+    width: 200px;
+    height: 30px;
+    font-family: Montserrat, cursive;
+    font-size: 2rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bolder;
+}
+
+.height-in-centimetres {
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+.height-in-feet {
+    padding: 20px;
+    font-size: 2.7rem;
+}
+
+.height-in-inches {
+    padding: 20px;
+    font-size: 2.5rem;
+}
+
+.buttonsForCentimetreConversion {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.buttonsForFeetConversion {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.resultOfCentimetresCalculation {
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 3.5rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+.resultOfFeetCalculation {
+    padding: 30px;
+    font-size: 3.5rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+.convertToCentimetres, .convertToFeet {
+    background-color: lightsalmon;
+    color: black;
+    font-size: 2.5rem;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.convertToCentimetres:hover, .convertToFeet:hover {
+    background-color: saddlebrown;
+    color: cornsilk;
+}
